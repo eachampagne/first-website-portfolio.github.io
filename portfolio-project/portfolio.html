@@ -1,11 +1,121 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-  </head>
+	<head>
+		<title>Elizabeth's Personal Website</title>
+	</head>
+		<style>
+		    body {
+			background: #1a1a1a;
+			color: #aaaaaa;
+			padding: 10px;
+			font-family: arial;
+		    }
+		    #all-contents {
+			max-width: 800px;
+			margin: auto;
+		    }
 
-  <body>
-    <div id="all-contents">
-		
-    </div>
-  </body>
+		    /* navigation menu */
+		    nav {
+			background: #404040;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			border-radius: 10px;
+			display: flex;
+			padding: 10px;
+			border: solid;
+			border-width: 1px;
+			border-color: #00f9ff;
+
+		    }
+		    nav h1 {
+			display: flex;
+			align-items: center;
+			color: #00f9ff;
+			flex: 1;
+			margin: 0;
+		    }
+		    nav ul {
+			list-style-image: none;
+		    }
+		    nav li {
+			display: inline-block;
+			padding: 0 10px;
+		    }
+		    nav a {
+			text-decoration: none;
+			color: #00f9ff;
+		    }
+
+		    /* main container area beneath menu */
+		    main {
+			background: #262626;
+			display: flex;
+			border-radius: 10px;
+		    }
+		    .sidebar {
+			margin-right: 25px;
+			padding: 10px;
+		    }
+		    .sidebar img {
+			width: 200px;
+		    }
+		    .content {
+			flex: 1;
+			padding: 15px;
+		    }
+		    h2, h3 {
+			margin: 0px;
+			color: white;
+		    }
+
+		    /* portfolio styles */
+		    #portfolio {
+			list-style-type: none;
+		  	padding-left: 0;
+		    }
+
+		    #portfolio li {
+		  	background: #fff;
+		  	padding: 10px;
+		  	border-radius: 10px;
+		  	margin-bottom: 10px;
+		    }
+
+		    #portfolio li:hover {
+		  	background: #eee;
+		    }
+
+		    #portfolio a {
+		  	text-decoration: none;
+		  	color: #454545;
+		    }
+		</style>
+
+	<body>
+		<div id="all-contents">
+			<nav>
+				<h1>Elizabeth's Personal Website</h1>
+				<ul>
+					<li>
+						<a href="../index.html">Home</a>
+					</li>
+					<li>
+						<a href="../first-website/first-website.html">About Me</a>
+					</li>
+					<li>
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+				</ul>
+			</nav>		
+			<main>
+				<div class="content">
+					<h1>Portfolio</h1>
+					<ul id="portfolio">
+						<!-- List items here -->
+					</ul>
+				</div>
+			</main>
+		</div>
+	</body>
 </html>
